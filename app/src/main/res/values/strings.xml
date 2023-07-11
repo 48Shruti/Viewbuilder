@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Viewbuilder</string>
+    <string name="name">Enter your name</string>
+    <string name="roll">Enter your roll number</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="etname">Enter your name</string>
+    <string name="etroll">Enter your roll number</string>
+    <string name="done">Done</string>
+</resources>
