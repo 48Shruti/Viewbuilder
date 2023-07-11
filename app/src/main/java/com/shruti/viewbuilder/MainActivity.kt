@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                 .setPositiveButton("yes") {_,_->
                     Toast.makeText(this, "text is deleted ", Toast.LENGTH_SHORT).show()
                     binding.tvname.text = "Enter your name"
-                    binding.tvroll.text = "Enter your roll number"
+                    binding.tvroll.text = "Enter your roll number "
                 }
                  .setNegativeButton("No"){_,_->
                      Toast.makeText(this,"text is not delete",Toast.LENGTH_SHORT).show()
