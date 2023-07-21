@@ -7,7 +7,7 @@
     <string name="etname">Enter your name</string>
     <string name="etroll">Enter your roll number</string>
     <string name="done">Done</string>
-    <string name="click">\Click</string>
+    <string name="click">Add</string>
     <string name="three">Three Character</string>
     <string name="four">Four Character</string>
     <string name="next">Next</string>

@@ -41,6 +41,18 @@
         app:layout_constraintGuide_percent=".44"
         android:orientation="horizontal"
         android:id="@+id/guide_h_44"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".50"
+        android:id="@+id/guide_h_50"
+        android:orientation="horizontal"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".57"
+        android:id="@+id/guide_h_57"
+        android:orientation="horizontal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,26 +62,43 @@
         app:layout_constraintEnd_toEndOf="@id/guide_v_70"
         app:layout_constraintTop_toTopOf="@id/guide_h_23"
         app:layout_constraintBottom_toBottomOf="@id/guide_h_30"
-        android:textSize="@dimen/three"
-        />
+        android:textSize="@dimen/three" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/three"
+        app:layout_constraintTop_toTopOf="@id/guide_h_30"
+        app:layout_constraintBottom_toBottomOf="@id/guide_h_37"
+        app:layout_constraintStart_toStartOf="@id/guide_v_30"
+        app:layout_constraintEnd_toEndOf="@id/guide_v_70"
+        android:id="@+id/etthree"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvfourchar"
         android:text="@string/four"
-        app:layout_constraintTop_toTopOf="@id/guide_h_30"
-        app:layout_constraintBottom_toBottomOf="@id/guide_h_37"
+        app:layout_constraintTop_toTopOf="@id/guide_h_37"
+        app:layout_constraintBottom_toBottomOf="@id/guide_h_44"
         app:layout_constraintStart_toStartOf="@id/guide_v_30"
         app:layout_constraintEnd_toEndOf="@id/guide_v_70"
         android:textSize="@dimen/four"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/four"
+        app:layout_constraintTop_toTopOf="@id/guide_h_44"
+        app:layout_constraintBottom_toBottomOf="@id/guide_h_50"
+        app:layout_constraintStart_toStartOf="@id/guide_v_30"
+        app:layout_constraintEnd_toEndOf="@id/guide_v_70"
+        android:id="@+id/etfour"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btclick"
         android:text="@string/click"
-        app:layout_constraintTop_toTopOf="@id/guide_h_37"
+        app:layout_constraintTop_toTopOf="@id/guide_h_50"
         app:layout_constraintEnd_toEndOf="@id/guide_v_70"
         app:layout_constraintStart_toStartOf="@id/guide_v_30"
-        app:layout_constraintBottom_toBottomOf="@id/guide_h_44"
+        app:layout_constraintBottom_toBottomOf="@id/guide_h_57"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

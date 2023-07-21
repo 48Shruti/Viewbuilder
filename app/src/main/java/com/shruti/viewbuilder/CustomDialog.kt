@@ -25,14 +25,14 @@ class CustomDialog : AppCompatActivity() {
              Toast.makeText(this,"Random three numbers ",Toast.LENGTH_SHORT).show()
             for (i in 0..2){
                 val randomchar = ('a'..'z').random()
-                binding.tvthreechar.setText(binding.tvthreechar?.text.toString()+ randomchar?.toString())
+                binding.etthree.setText(binding.etthree?.text.toString()+ randomchar?.toString())
             }
             }
             .setNegativeButton("Add 4 char"){_,_,->
                 Toast.makeText(this,"add four char",Toast.LENGTH_SHORT).show()
-                for (i in 0..2){
+                for (i in 0..3){
                     val randomchar1 = ('a'..'z').random()
-                    binding.tvfourchar.setText(binding.tvfourchar?.text.toString()+ randomchar1?.toString())
+                    binding.etfour.setText(binding.etfour?.text.toString()+ randomchar1?.toString())
                 }
             }
             .setNeutralButton("Cancel"){_,_,->
