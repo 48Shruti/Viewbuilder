@@ -1,6 +1,7 @@
 package com.shruti.viewbuilder
 
 import android.app.Dialog
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -53,6 +54,11 @@ class MainActivity : AppCompatActivity() {
                  .setCancelable(false)
              . show()
              }
+        binding.btnext.setOnClickListener {
+            val intent = Intent(this , CustomDialog::class.java)
+           startActivity(intent)
+
+        }
          }
         }
 
